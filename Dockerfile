@@ -142,6 +142,8 @@ RUN make -j12
 WORKDIR /
 
 
+RUN export PATH="/opt/bin:$PATH"
+
 # copy benchmarks over and untar  
 COPY   benchmarks.tar.gz  benchmarks.tar.gz 
 RUN tar -xzf benchmarks.tar.gz
