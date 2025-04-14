@@ -1,0 +1,193 @@
+benchmark,config,solver,options
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_2l_2l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_1l_1l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_4l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_3l_3l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_4l_2l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_2l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_4l_2l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_2l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_2l_2l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_1l_1l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_4l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_2l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_4l_2l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_3l_3l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_3l_3l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_4l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_2l_2l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_1l_1l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_1l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_4l_1l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_4l_1l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_1l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_4l_1l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_1l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_1l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_4l_1l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_4l_1l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_1l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_4l_1l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_1l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_4l_2l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_3l_3l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_2l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_1l_1l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_2l_2l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_4l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_1l_1l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_2l_2l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_4l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_4l_2l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_2l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_2l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_3l_3l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_4l_2l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_4l_4l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_1l_1l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_2l_2l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_3l_3l_nia.smt2,cvc5_nia,cvc5/build/bin/cvc5,
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_2l_2l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_1l_1l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_4l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_3l_3l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_4l_2l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_2l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_4l_2l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_2l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_2l_2l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_1l_1l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_4l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_2l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_4l_2l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_3l_3l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_3l_3l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_4l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_2l_2l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_1l_1l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_1l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_4l_1l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_4l_1l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_1l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_4l_1l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_1l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_1l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_4l_1l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_4l_1l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_1l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_4l_1l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_1l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_4l_2l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_3l_3l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_2l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_1l_1l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_2l_2l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_4l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_1l_1l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_2l_2l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_4l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_4l_2l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_2l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_2l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_3l_3l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_4l_2l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_4l_4l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_1l_1l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_2l_2l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_3l_3l_nia.smt2,z3_nia,z3/build/z3,
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_2l_2l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_1l_1l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_4l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_3l_3l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_4l_2l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_2l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_4l_2l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_2l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_2l_2l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_1l_1l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_4l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_2l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_4l_2l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_3l_3l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_3l_3l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_4l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_2l_2l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_1l_1l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_1l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/mul_det_32b_4l_1l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_4l_1l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/add_det_32b_1l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_4l_1l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/det/naivemul_det_32b_1l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_1l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_4l_1l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_4l_1l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_1l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_4l_1l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_1l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_4l_2l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_3l_3l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_2l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_1l_1l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_2l_2l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_4l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_1l_1l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_2l_2l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_4l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_4l_2l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_2l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_2l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/add_cor_32b_3l_3l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_4l_2l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_4l_4l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_1l_1l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/mul_cor_32b_2l_2l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_nia/bv_field/cor/naivemul_cor_32b_3l_3l_nia.smt2,ours,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+multimod_benchmarks/qf_bv/bv_field/det/add_det_32b_2l_4l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/naivemul_det_32b_2l_2l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/naivemul_det_32b_1l_4l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/mul_det_32b_4l_4l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/add_det_32b_1l_1l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/add_det_32b_4l_1l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/mul_det_32b_2l_2l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/mul_det_32b_1l_4l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/add_det_32b_4l_2l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/naivemul_det_32b_4l_4l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/add_det_32b_3l_3l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/mul_det_32b_1l_1l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/naivemul_det_32b_4l_1l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/naivemul_det_32b_3l_3l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/add_det_32b_4l_4l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/naivemul_det_32b_4l_2l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/mul_det_32b_2l_4l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/mul_det_32b_3l_3l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/mul_det_32b_4l_2l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/add_det_32b_1l_4l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/add_det_32b_2l_2l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/naivemul_det_32b_2l_4l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/naivemul_det_32b_1l_1l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/det/mul_det_32b_4l_1l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/add_cor_32b_4l_1l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/mul_cor_32b_1l_4l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/mul_cor_32b_2l_2l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/add_cor_32b_3l_3l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/add_cor_32b_4l_2l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/naivemul_cor_32b_4l_4l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/naivemul_cor_32b_1l_4l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/add_cor_32b_2l_4l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/naivemul_cor_32b_2l_2l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/mul_cor_32b_4l_4l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/add_cor_32b_1l_1l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/mul_cor_32b_4l_2l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/mul_cor_32b_3l_3l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/add_cor_32b_2l_2l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/naivemul_cor_32b_2l_4l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/add_cor_32b_1l_4l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/naivemul_cor_32b_1l_1l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/mul_cor_32b_4l_1l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/mul_cor_32b_1l_1l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/naivemul_cor_32b_4l_1l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/add_cor_32b_4l_4l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/naivemul_cor_32b_4l_2l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/naivemul_cor_32b_3l_3l_nia.smt2.out,z3_bv,z3/build/z3,
+multimod_benchmarks/qf_bv/bv_field/cor/mul_cor_32b_2l_4l_nia.smt2.out,z3_bv,z3/build/z3,
