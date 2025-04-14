@@ -100,16 +100,6 @@ RUN apt-get update && apt-get install -y \
 
 # WORKDIR /
 
-
-# Setup cvc5
-# RUN git clone https://github.com/cvc5/cvc5.git /cvc5
-# WORKDIR /cvc5
-# RUN git checkout 7ee7051df0
-# RUN ./configure.sh --auto-download
-# WORKDIR /cvc5/build
-# RUN make -j12
-# WORKDIR /
-
 # RUN apt install -y build-essential libreadline-dev libgmp-dev
 # RUN wget https://www.singular.uni-kl.de/ftp/pub/Math/Singular/SOURCES/4-0-0//singular-4.0.0.p4.tar.gz
 # RUN tar -xzf singular-4.0.0.p4.tar.gz
@@ -132,8 +122,6 @@ WORKDIR /range_solver
 RUN  git clone https://github.com/limpa105/cvc5.git
 WORKDIR /range_solver/cvc5 
 RUN git checkout aritifact
-#RUN git checkout gpsol_aprox
-#RUN git checkout 111be46
 RUN pip install tomli
 RUN pip install pyparsing
 RUN ./configure.sh --auto-download 
@@ -173,3 +161,42 @@ ENV PATH="/opt/bin/:$PATH"
 # Set the working directory
 WORKDIR /
 
+#Setup cvc5
+RUN git clone https://github.com/cvc5/cvc5.git /cvc5
+WORKDIR /cvc5
+RUN git checkout 7ee7051df0
+RUN ./configure.sh --auto-download
+WORKDIR /cvc5/build
+RUN make -j12
+WORKDIR /
+
+#set up z3
+RUN git clone https://github.com/Z3Prover/z3.git
+RUN g++ --version
+
+# upgrading g++
+RUN apt-get update && \
+    apt-get install -y software-properties-common && \
+    add-apt-repository -y ppa:ubuntu-toolchain-r/test && \
+    apt-get update && \
+    apt-get install -y g++-13 && \
+    update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-13 100 && \
+    update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-13 100
+
+WORKDIR /z3
+RUN git checkout 26b8d634a318b3aa0bacbcbaadbf8e5234d21034
+RUN python3 scripts/mk_make.py
+WORKDIR /z3/build
+RUN make -j12
+WORKDIR /
+
+#set up bitwuzla 
+# # bitwuzla yayyy 
+RUN git clone https://github.com/bitwuzla/bitwuzla
+WORKDIR /bitwuzla
+RUN apt-get install -y ninja-build
+RUN pip install meson
+RUN ./configure.py 
+WORKDIR /bitwuzla/build
+RUN ninja
+WORKDIR /

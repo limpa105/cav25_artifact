@@ -88,12 +88,12 @@ case "$SOLVER" in
     LOGIC_DIR="qf_bv"
     ;;
   cvc5_ff)
-    SOLVER_BIN="FILL_IN"
+    SOLVER_BIN="ff/cvc5/build/bin/cvc5"
     SOLVER_OPTS=""
     LOGIC_DIR="qf_ff"
     ;;
   cvc5_ff_splitGB)
-    SOLVER_BIN="FILL_IN"
+    SOLVER_BIN="cvc5/build/bin/cvc5"
     SOLVER_OPTS="--ff-solver=split"
     LOGIC_DIR="qf_ff"
     ;;
