@@ -110,33 +110,24 @@ RUN apt-get update && apt-get install -y \
 # RUN make -j12
 # WORKDIR /
 
-RUN apt install -y build-essential libreadline-dev libgmp-dev
-RUN wget https://www.singular.uni-kl.de/ftp/pub/Math/Singular/SOURCES/4-0-0//singular-4.0.0.p4.tar.gz
-RUN tar -xzf singular-4.0.0.p4.tar.gz
-WORKDIR /singular-4.0.0.p4
-RUN ./configure
-RUN make -j 12 && make install
+# RUN apt install -y build-essential libreadline-dev libgmp-dev
+# RUN wget https://www.singular.uni-kl.de/ftp/pub/Math/Singular/SOURCES/4-0-0//singular-4.0.0.p4.tar.gz
+# RUN tar -xzf singular-4.0.0.p4.tar.gz
+# WORKDIR /singular-4.0.0.p4
+# RUN ./configure
+# RUN make -j 12 && make install
 #sudo make install
 
 
 
 
-
-# Download and install Singular from the Ubuntu repositories
-# RUN apt-get update && apt-get install -y singular
 WORKDIR /opt
- RUN wget https://www.singular.uni-kl.de/ftp/pub/Math/Singular/SOURCES/4-0-0/singular-4.0.0-static-x86_64Linux.tgz && \
-     tar -xzf singular-4.0.0-static-x86_64Linux.tgz
-# RUN wget ftp://jim.mathematik.uni-kl.de/pub/Math/Singular/src/4-0-0/singular-4.0.0.tar.gz
-# RUN tar xvfz singular-4.0.0.tar.gz
-# WORKDIR /singular-4.0.0
-# ENV CXXFLAGS="-std=c++14 -Wno-error=format-overflow -Wno-register"
-# RUN ./configure --enable-gfanlib --prefix=$HOME/Singular4
-# RUN make -j 12 && make install
-RUN ln -s /root/Singular4/bin/Singular /usr/local/bin/Singular
+COPY Singular-4.4.0-x86_64-Linux.tar.gz . 
+RUN tar -xzf Singular-4.4.0-x86_64-Linux.tar.gz
+RUN export PATH="/opt/bin:$PATH"
+WORKDIR /
 
 # Setup my solver 
-
 WORKDIR /range_solver 
 RUN  git clone https://github.com/limpa105/cvc5.git
 WORKDIR /range_solver/cvc5 
