@@ -169,7 +169,7 @@ COPY small_bench.csv .
 # ENV LD_LIBRARY_PATH=/usr/local/lib
 
 #RUN ln -s /opt/Singular/bin/Singular /usr/local/bin/Singular
-
+ENV export PATH="/opt/bin/:$PATH"
 # Set the working directory
 WORKDIR /
 
