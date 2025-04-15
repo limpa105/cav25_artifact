@@ -199,6 +199,7 @@ COPY solvers/cvc5 cvc5
 COPY solvers/yices yices
 COPY solvers/z3 z3
 
+WORKDIR /
 # COPYING OVER 
 COPY run_solver.py .
 COPY run_small.sh .
