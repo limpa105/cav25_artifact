@@ -250,3 +250,6 @@ COPY run_custom.sh .
 COPY generate_runs.sh .
 COPY small_bench.csv .
 COPY large_bench.csv .
+WORKDIR /multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/
+COPY cor_1var_2deg_1trm_nia.smt2  .
+WORKDIR .

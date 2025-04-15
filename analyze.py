@@ -58,8 +58,6 @@ df[['norm_benchmark', 'solver', 'family', 'type']] = df.apply(extract_info, axis
 # ----------------------------
 unique_benchmarks = df[['norm_benchmark', 'family', 'type']].drop_duplicates()
 total_per_family_type = unique_benchmarks.groupby(['family', 'type']).size()
-print(unique_benchmarks)
-print(total_per_family_type )
 
 # ----------------------------
 # Compute unsat counts per solver
