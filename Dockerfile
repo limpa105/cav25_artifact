@@ -209,6 +209,10 @@ WORKDIR /cvc5/build
 RUN make -j12
 WORKDIR /
 
+RUN pip install tomli
+RUN pip install pyparsing
+
+
 WORKDIR /weighted_ilp 
 RUN  git clone https://github.com/limpa105/cvc5.git
 WORKDIR /weighted_ilp/cvc5 
@@ -244,8 +248,6 @@ WORKDIR /range_solver
 RUN  git clone https://github.com/limpa105/cvc5.git
 WORKDIR /range_solver/cvc5 
 RUN git checkout gpsol_aprox
-RUN pip install tomli
-RUN pip install pyparsing
 RUN ./configure.sh --auto-download 
 WORKDIR /range_solver/cvc5/build
 RUN make -j12
