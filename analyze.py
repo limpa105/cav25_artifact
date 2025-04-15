@@ -13,6 +13,17 @@ input_file = sys.argv[1]
 df = pd.read_csv(input_file)
 df.columns = df.columns.str.strip()
 
+def transform_name(benchmark):
+    if benchmark is None:
+        return benchmark
+    benchmark = benchmark.replace("mp_field/o1js_cor/", "ff(m)/cor")
+    benchmark = benchmark.replace("montgomery/mp", "fb(m)/cor")
+    benchmark = benchmark.replace("montgomery/sp", "fb(s)/cor")
+    benchmark = benchmark.replace("sp_field/goldilocks_cor", "ff(s)/cor")
+    benchmark = benchmark.replace("sp_field/goldilocks_det", "ff(s)/det")
+    benchmark = benchmark.replace("bv_field", "bf(s)")
+    return benchmark
+
 # Normalize benchmark path for uniqueness
 def extract_info(row):
     benchmark = row['benchmark']
@@ -21,6 +32,12 @@ def extract_info(row):
 
     # Strip extensions
     benchmark = re.sub(r'\.smt2(\.out)?$', '.smt2', benchmark)
+    benchmark = benchmark.replace("mp_field/o1js_cor/", "ff(m)/cor")
+    benchmark = benchmark.replace("montgomery/mp", "fb(m)/cor")
+    benchmark = benchmark.replace("montgomery/sp", "fb(s)/cor")
+    benchmark = benchmark.replace("sp_field/goldilocks_cor", "ff(s)/cor")
+    benchmark = benchmark.replace("sp_field/goldilocks_det", "ff(s)/det")
+    benchmark = benchmark.replace("sp_field/goldilocks_det", "ff(s)/det")
 
     parts = benchmark.split('/')
     if len(parts) < 5:
