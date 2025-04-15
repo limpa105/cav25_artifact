@@ -235,6 +235,7 @@ benchmark,config,solver,options
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_horner_nia.smt2,ours_mia,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_2deg_1trm_nia.smt2,ours_mia,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_2var_3deg_3trm_nia.smt2,ours_mia,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_1var_2deg_1trm_nia.smt2,ours_mia,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_2trm_nia.smt2,ours_mia,range_solver/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_64bits_value_nia.smt2,cvc5_nia,solvers/cvc5,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_3bits_value_nia.smt2,cvc5_nia,solvers/cvc5,
@@ -472,6 +473,7 @@ benchmark,config,solver,options
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_horner_nia.smt2,cvc5_nia,solvers/cvc5,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_2deg_1trm_nia.smt2,cvc5_nia,solvers/cvc5,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_2var_3deg_3trm_nia.smt2,cvc5_nia,solvers/cvc5,
+./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_1var_2deg_1trm_nia.smt2,cvc5_nia,solvers/cvc5,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_2trm_nia.smt2,cvc5_nia,solvers/cvc5,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_64bits_value_nia.smt2,z3_nia,solvers/z3,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_3bits_value_nia.smt2,z3_nia,solvers/z3,
@@ -709,6 +711,7 @@ benchmark,config,solver,options
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_horner_nia.smt2,z3_nia,solvers/z3,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_2deg_1trm_nia.smt2,z3_nia,solvers/z3,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_2var_3deg_3trm_nia.smt2,z3_nia,solvers/z3,
+./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_1var_2deg_1trm_nia.smt2,z3_nia,solvers/z3,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_2trm_nia.smt2,z3_nia,solvers/z3,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_64bits_value_nia.smt2,cvc5_nia,solvers/cvc5,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_3bits_value_nia.smt2,cvc5_nia,solvers/cvc5,
@@ -946,6 +949,7 @@ benchmark,config,solver,options
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_horner_nia.smt2,cvc5_nia,solvers/cvc5,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_2deg_1trm_nia.smt2,cvc5_nia,solvers/cvc5,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_2var_3deg_3trm_nia.smt2,cvc5_nia,solvers/cvc5,
+./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_1var_2deg_1trm_nia.smt2,cvc5_nia,solvers/cvc5,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_2trm_nia.smt2,cvc5_nia,solvers/cvc5,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_64bits_value_nia.smt2,yices_nia,solvers/yices,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_3bits_value_nia.smt2,yices_nia,solvers/yices,
@@ -1183,6 +1187,7 @@ benchmark,config,solver,options
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_horner_nia.smt2,yices_nia,solvers/yices,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_2deg_1trm_nia.smt2,yices_nia,solvers/yices,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_2var_3deg_3trm_nia.smt2,yices_nia,solvers/yices,
+./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_1var_2deg_1trm_nia.smt2,yices_nia,solvers/yices,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_2trm_nia.smt2,yices_nia,solvers/yices,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_64bits_value_nia.smt2,z3_bv,solvers/z3,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_3bits_value_nia.smt2,z3_bv,solvers/z3,
@@ -1420,6 +1425,7 @@ benchmark,config,solver,options
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_horner_nia.smt2,z3_bv,solvers/z3,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_2deg_1trm_nia.smt2,z3_bv,solvers/z3,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_2var_3deg_3trm_nia.smt2,z3_bv,solvers/z3,
+./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_1var_2deg_1trm_nia.smt2,z3_bv,solvers/z3,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_2trm_nia.smt2,z3_bv,solvers/z3,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_64bits_value_nia.smt2,cvc5_bv,solvers/cvc5,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_3bits_value_nia.smt2,cvc5_bv,solvers/cvc5,
@@ -1657,6 +1663,7 @@ benchmark,config,solver,options
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_horner_nia.smt2,cvc5_bv,solvers/cvc5,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_2deg_1trm_nia.smt2,cvc5_bv,solvers/cvc5,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_2var_3deg_3trm_nia.smt2,cvc5_bv,solvers/cvc5,
+./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_1var_2deg_1trm_nia.smt2,cvc5_bv,solvers/cvc5,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_2trm_nia.smt2,cvc5_bv,solvers/cvc5,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_64bits_value_nia.smt2,bitwuzla_bv,bitwuzla/build/src/main/bitwuzla,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_3bits_value_nia.smt2,bitwuzla_bv,bitwuzla/build/src/main/bitwuzla,
@@ -1894,6 +1901,7 @@ benchmark,config,solver,options
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_horner_nia.smt2,bitwuzla_bv,bitwuzla/build/src/main/bitwuzla,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_2deg_1trm_nia.smt2,bitwuzla_bv,bitwuzla/build/src/main/bitwuzla,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_2var_3deg_3trm_nia.smt2,bitwuzla_bv,bitwuzla/build/src/main/bitwuzla,
+./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_1var_2deg_1trm_nia.smt2,bitwuzla_bv,bitwuzla/build/src/main/bitwuzla,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_2trm_nia.smt2,bitwuzla_bv,bitwuzla/build/src/main/bitwuzla,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_64bits_value_nia.smt2,bitwuzla_bv_abst,bitwuzla/build/src/main/bitwuzla,--abstraction
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_3bits_value_nia.smt2,bitwuzla_bv_abst,bitwuzla/build/src/main/bitwuzla,--abstraction
@@ -2131,6 +2139,7 @@ benchmark,config,solver,options
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_horner_nia.smt2,bitwuzla_bv_abst,bitwuzla/build/src/main/bitwuzla,--abstraction
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_2deg_1trm_nia.smt2,bitwuzla_bv_abst,bitwuzla/build/src/main/bitwuzla,--abstraction
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_2var_3deg_3trm_nia.smt2,bitwuzla_bv_abst,bitwuzla/build/src/main/bitwuzla,--abstraction
+./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_1var_2deg_1trm_nia.smt2,bitwuzla_bv_abst,bitwuzla/build/src/main/bitwuzla,--abstraction
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_2trm_nia.smt2,bitwuzla_bv_abst,bitwuzla/build/src/main/bitwuzla,--abstraction
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_64bits_value_nia.smt2,cvc5_ff,cvc5/build/bin/cvc5,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_3bits_value_nia.smt2,cvc5_ff,cvc5/build/bin/cvc5,
@@ -2368,6 +2377,7 @@ benchmark,config,solver,options
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_horner_nia.smt2,cvc5_ff,cvc5/build/bin/cvc5,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_2deg_1trm_nia.smt2,cvc5_ff,cvc5/build/bin/cvc5,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_2var_3deg_3trm_nia.smt2,cvc5_ff,cvc5/build/bin/cvc5,
+./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_1var_2deg_1trm_nia.smt2,cvc5_ff,cvc5/build/bin/cvc5,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_2trm_nia.smt2,cvc5_ff,cvc5/build/bin/cvc5,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_64bits_value_nia.smt2,cvc5_ff_splitGB,cvc5/build/bin/cvc5,--ff-solver=split
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_3bits_value_nia.smt2,cvc5_ff_splitGB,cvc5/build/bin/cvc5,--ff-solver=split
@@ -2605,6 +2615,7 @@ benchmark,config,solver,options
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_horner_nia.smt2,cvc5_ff_splitGB,cvc5/build/bin/cvc5,--ff-solver=split
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_2deg_1trm_nia.smt2,cvc5_ff_splitGB,cvc5/build/bin/cvc5,--ff-solver=split
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_2var_3deg_3trm_nia.smt2,cvc5_ff_splitGB,cvc5/build/bin/cvc5,--ff-solver=split
+./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_1var_2deg_1trm_nia.smt2,cvc5_ff_splitGB,cvc5/build/bin/cvc5,--ff-solver=split
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_2trm_nia.smt2,cvc5_ff_splitGB,cvc5/build/bin/cvc5,--ff-solver=split
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_64bits_value_nia.smt2,yices_ff,solvers/yices,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_3bits_value_nia.smt2,yices_ff,solvers/yices,
@@ -2842,6 +2853,7 @@ benchmark,config,solver,options
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_horner_nia.smt2,yices_ff,solvers/yices,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_2deg_1trm_nia.smt2,yices_ff,solvers/yices,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_2var_3deg_3trm_nia.smt2,yices_ff,solvers/yices,
+./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_1var_2deg_1trm_nia.smt2,yices_ff,solvers/yices,
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_2trm_nia.smt2,yices_ff,solvers/yices,
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_64bits_value_nia.smt2,ablation_unweighted,unweighted/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_3bits_value_nia.smt2,ablation_unweighted,unweighted/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
@@ -3079,6 +3091,7 @@ benchmark,config,solver,options
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_horner_nia.smt2,ablation_unweighted,unweighted/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_2deg_1trm_nia.smt2,ablation_unweighted,unweighted/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_2var_3deg_3trm_nia.smt2,ablation_unweighted,unweighted/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
+./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_1var_2deg_1trm_nia.smt2,ablation_unweighted,unweighted/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_2trm_nia.smt2,ablation_unweighted,unweighted/cvc5/build/bin/cvc5,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_64bits_value_nia.smt2,ablation_ilp,qf_nia,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_3bits_value_nia.smt2,ablation_ilp,qf_nia,--mod-range-solver --int-range-or
@@ -3316,6 +3329,7 @@ benchmark,config,solver,options
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_horner_nia.smt2,ablation_ilp,qf_nia,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_2deg_1trm_nia.smt2,ablation_ilp,qf_nia,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_2var_3deg_3trm_nia.smt2,ablation_ilp,qf_nia,--mod-range-solver --int-range-or
+./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_1var_2deg_1trm_nia.smt2,ablation_ilp,qf_nia,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_2trm_nia.smt2,ablation_ilp,qf_nia,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_64bits_value_nia.smt2,albation_weighted_ilp,qf_nia,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/montgomery/sp/expr_x*y_3bits_value_nia.smt2,albation_weighted_ilp,qf_nia,--mod-range-solver --int-range-or
@@ -3553,4 +3567,5 @@ benchmark,config,solver,options
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_horner_nia.smt2,albation_weighted_ilp,qf_nia,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_2deg_1trm_nia.smt2,albation_weighted_ilp,qf_nia,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_2var_3deg_3trm_nia.smt2,albation_weighted_ilp,qf_nia,--mod-range-solver --int-range-or
+./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_1var_2deg_1trm_nia.smt2,albation_weighted_ilp,qf_nia,--mod-range-solver --int-range-or
 ./multimod_benchmarks/qf_nia/sp_field/goldilocks_cor/cor_3var_3deg_2trm_nia.smt2,albation_weighted_ilp,qf_nia,--mod-range-solver --int-range-or
