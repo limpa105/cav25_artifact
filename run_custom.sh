@@ -13,6 +13,9 @@ if [[ "$1" == "-o" ]]; then
   echo "  cvc5_ff_splitGB"
   echo "  cvc5_ff"
   echo "  yices_ff"
+  echo "  ablation_unweighted"
+  echo "  ablation_ilp"
+  echo "  ablation_weighted_ilp"
   echo
   echo "Available families/types:"
   echo "  fb(s)/cor"
@@ -102,12 +105,28 @@ case "$SOLVER" in
     SOLVER_OPTS=""
     LOGIC_DIR="qf_ffa"
     ;;
+  ablation_unweighted)
+    SOLVER_BIN="unweighted/build/bin/cvc5"
+    SOLVER_OPTS=""
+    LOGIC_DIR="qf_nia"
+    ;;
+  ablation_ilp)
+    SOLVER_BIN="il[/build/bin/cvc5"
+    SOLVER_OPTS=""
+    LOGIC_DIR="qf_nia"
+    ;;
+  ablation_weighted_ilp)
+    SOLVER_BIN="weighted_ilp/build/bin/cvc5"
+    SOLVER_OPTS=""
+    LOGIC_DIR="qf_nia"
+    ;;
   *)
     echo "[ERROR] Unknown solver: $SOLVER"
     echo "Run with -o to see available options."
     exit 1
     ;;
 esac
+
 
 # --------- Configuration for known families ----------
 case "$FAMILY_TYPE" in

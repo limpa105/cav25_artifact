@@ -200,6 +200,45 @@ COPY solvers/yices yices
 COPY solvers/z3 z3
 
 WORKDIR /
+
+#Setup cvc5
+RUN git clone https://github.com/cvc5/cvc5.git 
+WORKDIR /cvc5
+RUN ./configure.sh --auto-download --cocoa --gpsol
+WORKDIR /cvc5/build
+RUN make -j12
+WORKDIR /
+
+WORKDIR /weighted_ilp 
+RUN  git clone https://github.com/limpa105/cvc5.git
+WORKDIR /weighted_ilp/cvc5 
+RUN git checkout ablations
+RUN git checkout 232748a
+RUN ./configure.sh --auto-download 
+WORKDIR /range_solver/cvc5/build
+RUN make -j12
+WORKDIR /
+
+WORKDIR /ilp 
+RUN  git clone https://github.com/limpa105/cvc5.git
+WORKDIR /ilp/cvc5 
+RUN git checkout ablations
+RUN git checkout 056030d
+RUN ./configure.sh --auto-download 
+WORKDIR /range_solver/cvc5/build
+RUN make -j12
+WORKDIR /
+
+WORKDIR /unweighted
+RUN  git clone https://github.com/limpa105/cvc5.git
+WORKDIR /unweighted/cvc5 
+RUN git checkout ablations
+RUN git checkout 58ade4d
+RUN ./configure.sh --auto-download 
+WORKDIR /range_solver/cvc5/build
+RUN make -j12
+WORKDIR /
+
 # COPYING OVER 
 COPY run_solver.py .
 COPY run_small.sh .
