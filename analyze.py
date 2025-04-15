@@ -48,7 +48,7 @@ def extract_info(row):
     bench_type = parts[3] # e.g., det
     name = parts[4:len(parts)]       # e.g., add_det_32b_4l_2l_nia.smt2
 
-    normalized_path = f"{family}/{bench_type}/{name}"
+    normalized_path = f"{name}"
     solver_full = solver
 
     return pd.Series([normalized_path, solver_full, family, bench_type])
