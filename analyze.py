@@ -16,7 +16,7 @@ df.columns = df.columns.str.strip()
 def transform_name(benchmark):
     if benchmark is None:
         return benchmark
-    benchmark = benchmark.replace("mp_field/o1js_cor/", "ff(m)/cor")
+    benchmark = benchmark.replace("mp_field/o1js_cor", "ff(m)/cor")
     benchmark = benchmark.replace("montgomery/mp", "fb(m)/cor")
     benchmark = benchmark.replace("montgomery/sp", "fb(s)/cor")
     benchmark = benchmark.replace("sp_field/goldilocks_cor", "ff(s)/cor")
@@ -32,12 +32,7 @@ def extract_info(row):
 
     # Strip extensions
     benchmark = re.sub(r'\.smt2(\.out)?$', '.smt2', benchmark)
-    benchmark = benchmark.replace("mp_field/o1js_cor/", "ff(m)/cor")
-    benchmark = benchmark.replace("montgomery/mp", "fb(m)/cor")
-    benchmark = benchmark.replace("montgomery/sp", "fb(s)/cor")
-    benchmark = benchmark.replace("sp_field/goldilocks_cor", "ff(s)/cor")
-    benchmark = benchmark.replace("sp_field/goldilocks_det", "ff(s)/det")
-    benchmark = benchmark.replace("sp_field/goldilocks_det", "ff(s)/det")
+
 
     parts = benchmark.split('/')
     if len(parts) < 5:
@@ -53,13 +48,18 @@ def extract_info(row):
 
     return pd.Series([normalized_path, solver_full, family, bench_type])
 
+df['benchmark']=df['benchmark'].apply(transform_name)
 df[['norm_benchmark', 'solver', 'family', 'type']] = df.apply(extract_info, axis=1)
+ 
+ 
 
 # ----------------------------
 # Compute total benchmarks overall (de-duped)
 # ----------------------------
 unique_benchmarks = df[['norm_benchmark', 'family', 'type']].drop_duplicates()
 total_per_family_type = unique_benchmarks.groupby(['family', 'type']).size()
+print(unique_benchmarks)
+print(total_per_family_type )
 
 # ----------------------------
 # Compute unsat counts per solver

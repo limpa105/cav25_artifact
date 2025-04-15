@@ -242,8 +242,10 @@ WORKDIR /
 # COPYING OVER 
 COPY run_solver.py .
 COPY run_small.sh .
+COPY run_all.sh .
 COPY test_bench.csv .
 COPY analyze.py .
 COPY run_custom.sh .
 COPY generate_runs.sh .
 COPY small_bench.csv .
+COPY large_bench.csv .
