@@ -23,6 +23,7 @@ with tempfile.NamedTemporaryFile() as t:
     #benchmark_dir = "."
     #assert os.path.exists(f"{benchmark_dir}/smt2")
     #assert os.path.exists(f"{benchmark_dir}/circ_ir")
+    benchmark = benchmark.replace("*", "\\*")
     solver_command = ""
     if(options == ""):
         #solver_command = f" {solver} --tlimit 2000 {benchmark} >> {t.name}"
