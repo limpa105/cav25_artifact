@@ -107,17 +107,17 @@ case "$SOLVER" in
     ;;
   ablation_unweighted)
     SOLVER_BIN="unweighted/build/bin/cvc5"
-    SOLVER_OPTS=""
+    SOLVER_OPTS="--mod-range-solver --int-range-or"
     LOGIC_DIR="qf_nia"
     ;;
   ablation_ilp)
     SOLVER_BIN="il[/build/bin/cvc5"
-    SOLVER_OPTS=""
+    SOLVER_OPTS="--mod-range-solver --int-range-or"
     LOGIC_DIR="qf_nia"
     ;;
   ablation_weighted_ilp)
     SOLVER_BIN="weighted_ilp/build/bin/cvc5"
-    SOLVER_OPTS=""
+    SOLVER_OPTS="--mod-range-solver --int-range-or"
     LOGIC_DIR="qf_nia"
     ;;
   *)
