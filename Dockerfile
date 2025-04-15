@@ -118,16 +118,16 @@ RUN export PATH="/opt/bin:$PATH"
 WORKDIR /
 
 # Setup my solver 
-WORKDIR /range_solver 
-RUN  git clone https://github.com/limpa105/cvc5.git
-WORKDIR /range_solver/cvc5 
-RUN git checkout aritifact
-RUN pip install tomli
-RUN pip install pyparsing
-RUN ./configure.sh --auto-download 
-WORKDIR /range_solver/cvc5/build
-RUN make -j12
-WORKDIR /
+# WORKDIR /range_solver 
+# RUN  git clone https://github.com/limpa105/cvc5.git
+# WORKDIR /range_solver/cvc5 
+# RUN git checkout aritifact
+# RUN pip install tomli
+# RUN pip install pyparsing
+# RUN ./configure.sh --auto-download 
+# WORKDIR /range_solver/cvc5/build
+# RUN make -j12
+# WORKDIR /
 
 
 RUN export PATH="/opt/bin:$PATH"
@@ -238,6 +238,20 @@ RUN ./configure.sh --auto-download
 WORKDIR /unweighted/cvc5/build
 RUN make -j12
 WORKDIR /
+
+
+WORKDIR /range_solver 
+RUN  git clone https://github.com/limpa105/cvc5.git
+WORKDIR /range_solver/cvc5 
+RUN git checkout gpsol_aprox
+RUN pip install tomli
+RUN pip install pyparsing
+RUN ./configure.sh --auto-download 
+WORKDIR /range_solver/cvc5/build
+RUN make -j12
+WORKDIR /
+
+
 
 # COPYING OVER 
 COPY run_custom.sh .
