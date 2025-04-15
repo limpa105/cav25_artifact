@@ -215,7 +215,7 @@ WORKDIR /weighted_ilp/cvc5
 RUN git checkout ablations
 RUN git checkout 232748a
 RUN ./configure.sh --auto-download 
-WORKDIR /range_solver/cvc5/build
+WORKDIR /weighted_ilp/cvc5/build
 RUN make -j12
 WORKDIR /
 
@@ -225,7 +225,7 @@ WORKDIR /ilp/cvc5
 RUN git checkout ablations
 RUN git checkout 056030d
 RUN ./configure.sh --auto-download 
-WORKDIR /range_solver/cvc5/build
+WORKDIR /ilp/cvc5/build
 RUN make -j12
 WORKDIR /
 
@@ -235,7 +235,7 @@ WORKDIR /unweighted/cvc5
 RUN git checkout ablations
 RUN git checkout 58ade4d
 RUN ./configure.sh --auto-download 
-WORKDIR /range_solver/cvc5/build
+WORKDIR /unweighted/cvc5/build
 RUN make -j12
 WORKDIR /
 
