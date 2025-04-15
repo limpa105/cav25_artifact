@@ -83,7 +83,7 @@ case "$SOLVER" in
     LOGIC_DIR="qf_bv"
     ;;
   bitwuzla_bv_abst)
-    SOLVER_BIN="bitwuzla/build/bitwuzla"
+    SOLVER_BIN="bitwuzla/build/src/main/bitwuzla"
     SOLVER_OPTS="--abstraction"
     LOGIC_DIR="qf_bv"
     ;;

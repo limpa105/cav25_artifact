@@ -19,6 +19,7 @@ with tempfile.NamedTemporaryFile() as t:
     limit_mem = os.environ["LIMIT_MEM"]
     benchmark_dir = os.environ["BENCHMARK_DIR"]
     benchmark_dir = os.path.abspath(benchmark_dir)
+    options = options.replace('"', '')
     #benchmark_dir = "."
     #assert os.path.exists(f"{benchmark_dir}/smt2")
     #assert os.path.exists(f"{benchmark_dir}/circ_ir")
