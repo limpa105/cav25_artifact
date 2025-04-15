@@ -53,27 +53,27 @@ case "$SOLVER" in
     LOGIC_DIR="qf_nia"
     ;;
   z3_nia)
-    SOLVER_BIN="z3/build/z3"
+    SOLVER_BIN="solvers/z3"
     SOLVER_OPTS=""
     LOGIC_DIR="qf_nia"
     ;;
   cvc5_nia)
-    SOLVER_BIN="cvc5/build/bin/cvc5"
+    SOLVER_BIN="solvers/cvc5"
     SOLVER_OPTS=""
     LOGIC_DIR="qf_nia"
     ;;
   yices_nia)
-    SOLVER_BIN="yices2/build/aarch64-unknown-linux-gnu-release/bin/yices_smt2"
+    SOLVER_BIN="solvers/yices"
     SOLVER_OPTS=""
     LOGIC_DIR="qf_nia"
     ;;
   z3_bv)
-    SOLVER_BIN="z3/build/z3"
+    SOLVER_BIN="solvers/z3"
     SOLVER_OPTS=""
     LOGIC_DIR="qf_bv"
     ;;
   cvc5_bv)
-    SOLVER_BIN="cvc5/build/bin/cvc5"
+    SOLVER_BIN="solvers/cvc5"
     SOLVER_OPTS=""
     LOGIC_DIR="qf_bv"
     ;;
@@ -88,7 +88,7 @@ case "$SOLVER" in
     LOGIC_DIR="qf_bv"
     ;;
   cvc5_ff)
-    SOLVER_BIN="ff/cvc5/build/bin/cvc5"
+    SOLVER_BIN="cvc5/build/bin/cvc5"
     SOLVER_OPTS=""
     LOGIC_DIR="qf_ff"
     ;;
@@ -98,7 +98,7 @@ case "$SOLVER" in
     LOGIC_DIR="qf_ff"
     ;;
   yices_ff)
-    SOLVER_BIN="yices2/build/aarch64-unknown-linux-gnu-release/bin/yices_smt2"
+    SOLVER_BIN="solvers/yices"
     SOLVER_OPTS=""
     LOGIC_DIR="qf_ffa"
     ;;

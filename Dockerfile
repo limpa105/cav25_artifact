@@ -145,13 +145,7 @@ RUN apt-get install -y parallel
 RUN pip install --no-cache-dir pandas
 
 # copy over impotant files 
-COPY run_solver.py .
-COPY run_all.sh .
-COPY test_bench.csv .
-COPY analyze.py .
-COPY run_custom.sh .
-COPY generate_runs.sh .
-COPY small_bench.csv .
+
 
 
 # ENV LD_LIBRARY_PATH=/usr/local/lib
@@ -162,34 +156,33 @@ ENV PATH="/opt/bin/:$PATH"
 WORKDIR /
 
 #Setup cvc5
-RUN git clone https://github.com/cvc5/cvc5.git /cvc5
-WORKDIR /cvc5
-RUN git checkout 7ee7051df0
-RUN ./configure.sh --auto-download
-WORKDIR /cvc5/build
-RUN make -j12
-WORKDIR /
+# RUN git clone https://github.com/cvc5/cvc5.git /cvc5
+# WORKDIR /cvc5
+# RUN git checkout 7ee7051df0
+# RUN ./configure.sh --auto-download
+# WORKDIR /cvc5/build
+# RUN make -j12
+# WORKDIR /
 
 #set up z3
-RUN git clone https://github.com/Z3Prover/z3.git
-RUN g++ --version
+# RUN git clone https://github.com/Z3Prover/z3.git
+# RUN g++ --version
 
 # upgrading g++
-RUN apt-get update && \
-    apt-get install -y software-properties-common && \
-    add-apt-repository -y ppa:ubuntu-toolchain-r/test && \
-    apt-get update && \
-    apt-get install -y g++-13 && \
-    update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-13 100 && \
-    update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-13 100
+# RUN apt-get update && \
+#     apt-get install -y software-properties-common && \
+#     add-apt-repository -y ppa:ubuntu-toolchain-r/test && \
+#     apt-get update && \
+#     apt-get install -y g++-13 && \
+#     update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-13 100 && \
+#     update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-13 100
 
-WORKDIR /z3
-RUN git checkout 26b8d634a318b3aa0bacbcbaadbf8e5234d21034
-RUN python3 scripts/mk_make.py
-WORKDIR /z3/build
-RUN make -j12
-WORKDIR /
-
+# WORKDIR /z3
+# RUN git checkout 26b8d634a318b3aa0bacbcbaadbf8e5234d21034
+# RUN python3 scripts/mk_make.py
+# WORKDIR /z3/build
+# RUN make -j12
+# WORKDIR /
 #set up bitwuzla 
 # # bitwuzla yayyy 
 RUN git clone https://github.com/bitwuzla/bitwuzla
@@ -199,4 +192,18 @@ RUN pip install meson
 RUN ./configure.py 
 WORKDIR /bitwuzla/build
 RUN ninja
-WORKDIR /
+WORKDIR /solvers
+
+
+COPY solvers/cvc5 cvc5
+COPY solvers/yices yices
+COPY solvers/z3 z3
+
+# COPYING OVER 
+COPY run_solver.py .
+COPY run_small.sh .
+COPY test_bench.csv .
+COPY analyze.py .
+COPY run_custom.sh .
+COPY generate_runs.sh .
+COPY small_bench.csv .
