@@ -240,6 +240,7 @@ RUN make -j12
 WORKDIR /
 
 # COPYING OVER 
+COPY run_custom.sh .
 COPY run_solver.py .
 COPY run_small.sh .
 COPY run_all.sh .
