@@ -204,7 +204,7 @@ WORKDIR /
 #Setup cvc5
 RUN git clone https://github.com/cvc5/cvc5.git 
 WORKDIR /cvc5
-RUN ./configure.sh --auto-download --cocoa --gpsol
+RUN ./configure.sh --auto-download --cocoa --gpl
 WORKDIR /cvc5/build
 RUN make -j12
 WORKDIR /
